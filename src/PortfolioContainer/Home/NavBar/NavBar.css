@@ -1,3 +1,11 @@
 .bg-mybg{
     background-color: #24263b;
 }
+
+.navbar {
+    font-family: "Poppins Regular";
+}
+
+.navbar .navbar-brand {
+    font-family: "Poppins Semibold";
+}

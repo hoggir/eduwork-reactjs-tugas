@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import NavBar from './NavBar/NavBar';
 import Profile from './Profile/Profile';
 import './Home.css';

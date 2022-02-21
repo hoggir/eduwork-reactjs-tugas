@@ -1,6 +1,7 @@
-import React from "react";
+import React from 'react'
 import "./ContactMe.css";
 import styled from "styled-components";
+
 
 const BTNResume = styled.button`
   margin: auto;
@@ -40,7 +41,7 @@ export default class ContactMe extends React.Component {
 
             <div className="col-lg-6 col-md-6 col-sm-12">
               <div className="left">
-                <h4>Get In Touch 📧</h4>
+                <h4>Get In Touch</h4>
                 <div className="colz">
                   <div className="colz-icon">
                     <a href="https://www.facebook.com/">

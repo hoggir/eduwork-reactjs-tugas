@@ -36,14 +36,6 @@
   text-align: left;
 }
 
-.form-control {
-  background-color: whitesmoke;
-  border-top-style: hidden;
-  border-right-style: hidden;
-  border-left-style: hidden;
-  border-bottom-style: hidden;
-}
-
 .left {
   padding: 24px;
   color: white;
@@ -61,5 +53,6 @@
 
 .text-email-here {
   margin-top: 70px;
+  margin-bottom: 20px;
   color: #0abead;
 }

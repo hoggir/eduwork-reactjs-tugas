@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import "./About.css";
 import styled from "styled-components";
 
@@ -48,12 +48,12 @@ export default class About extends React.Component {
             </p>
             <div className="highlights">
               <h5 className="text-highlights">Here are a Few Highlights:</h5>
-              <p>✔️ Full Stack web and mobile development</p>
-              <p>✔️ Interactive Front Enda as per the design</p>
-              <p>✔️ Reactjs and Nodejs</p>
-              <p>✔️ Redux for State Management</p>
-              <p>✔️ Building REST API</p>
-              <p>✔️ Managing database</p>
+              <p>✔ Full Stack web and mobile development</p>
+              <p>✔ Interactive Front Enda as per the design</p>
+              <p>✔ Reactjs and Nodejs</p>
+              <p>✔ Redux for State Management</p>
+              <p>✔ Building REST API</p>
+              <p>✔ Managing database</p>
               <BTNResume className="btn primary-btn">
                 {""}
                 Hire Me{" "}
