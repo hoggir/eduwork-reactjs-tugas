@@ -1,0 +1,111 @@
+.bg {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%);
+    position: absolute;
+}
+
+.login-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-card {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.card-img {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../assets/me.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0px;
+}
+
+.left-container {
+    background-color: black;
+}
+
+.login-card-body {
+    padding: 57px 65px;
+    color: white;
+}
+
+.login-text-card {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    margin-bottom: 36px;
+}
+
+input {
+    outline: none;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-input-group {
+    color: white;
+    margin-bottom: 33px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.input--style-3 {
+    color: white;
+    padding: 5px 0;
+    font-size: 16px;
+    background: transparent;
+}
+
+.input--style-3::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+.btn {
+    margin-top: 27px;
+    line-height: 40px;
+    padding:  0 33px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.btn--pill {
+    border-radius: 20px;
+}
+
+.btn--green {
+    background: #57b846;
+}
+
+.btn--green:hover {
+    background: #4dae3c;
+}
+
+@media screen and (max-width: 1110px) {
+    .card {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .card {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .card {
+        margin: 0 auto;
+    }
+}

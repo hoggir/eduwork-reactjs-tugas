@@ -1,0 +1,58 @@
+.contact-container {
+  padding: 0 20px 20px 20px;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: #1f2235;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.contact-title{
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Poppins SemiBold";
+  margin-bottom: 50px;
+}
+
+.right {
+  border-radius: 10px;
+  padding: 16px;
+  margin-top: 80px;
+  background-color: white;
+}
+
+.fields-text {
+  font-size: 18px;
+  color: #ff5823;
+  padding-top: 16px;
+  text-align: center;
+  font-family: "Poppins SemiBold";
+}
+
+.fields {
+  font-family: "Poppins SemiBold";
+  letter-spacing: 1.8px;
+  color: #333333;
+  text-align: left;
+}
+
+.left {
+  padding: 24px;
+  color: white;
+  text-align: left;
+  font-family: "Poppins SemiBold";
+  letter-spacing: 3px;
+}
+
+.imgemail {
+  display: block;
+  margin: auto;
+  width: 80%;
+  background-size: cover;
+}
+
+.text-email-here {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  color: #0abead;
+}
