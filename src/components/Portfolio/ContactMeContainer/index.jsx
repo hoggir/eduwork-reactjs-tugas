@@ -1,7 +1,6 @@
-import React from 'react'
+import React from "react";
 import "./index.css";
 import styled from "styled-components";
-
 
 const BTNResume = styled.button`
   margin: auto;
@@ -28,8 +27,7 @@ const BTNResume = styled.button`
 export default class ContactMe extends React.Component {
   render() {
     return (
-
-      <div className="container">
+      <div id="contact" className="container mb-5 pt-5">
         <div className="contact-title">
           <h3 className="fs-bold fs-2">Contact Me</h3>
           <p className="fs-6 fw-light fst-italic mt-3">Lets Keep In Touch</p>
@@ -38,7 +36,6 @@ export default class ContactMe extends React.Component {
 
         <div className="contact-container">
           <div className="row mt-2">
-
             <div className="col-lg-6 col-md-6 col-sm-12">
               <div className="left">
                 <h4>Get In Touch</h4>
@@ -81,7 +78,6 @@ export default class ContactMe extends React.Component {
                 <BTNResume className="btn-send-m">Send</BTNResume>
               </div>
             </div>
-
           </div>
         </div>
       </div>

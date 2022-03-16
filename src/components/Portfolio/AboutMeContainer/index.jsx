@@ -27,9 +27,11 @@ const BTNResume = styled.button`
 export default class About extends React.Component {
   render() {
     return (
-      <div className="container">
+      <div id="about" className="container pt-5">
         <div className="title-about-con">
-          <h3 className="fs-bold fs-2" id="about">About Me</h3>
+          <h3 className="fs-bold fs-2" id="about">
+            About Me
+          </h3>
           <p className="fs-6 fw-light fst-italic mt-3">Why Choose Me?</p>
           <p>--V--</p>
         </div>
@@ -69,7 +71,6 @@ export default class About extends React.Component {
             </div>
           </div>
         </div>
-
       </div>
     );
   }

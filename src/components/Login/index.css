@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 .bg {
     height: 100%;
     width: 100%;
@@ -37,7 +39,7 @@
 }
 
 .login-text-card {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     margin-bottom: 36px;
 }
@@ -49,7 +51,7 @@ input {
     box-shadow: none;
     width: 100%;
     font-size: 14px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .login-input-group {
@@ -73,7 +75,7 @@ input {
     margin-top: 27px;
     line-height: 40px;
     padding:  0 33px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     cursor: pointer;
     color: white;
     font-size: 18px;

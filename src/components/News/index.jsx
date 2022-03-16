@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import ArticleList from "./articlesList";
+import swal from "sweetalert";
 
 const HEADLINE_API =
   "https://newsapi.org/v2/top-headlines?country=id&apiKey=e3222aca48e54226acaaed39e88986b9";
@@ -41,7 +42,7 @@ function News() {
       getArticles(
         `https://newsapi.org/v2/top-headlines?country=id&apiKey=e3222aca48e54226acaaed39e88986b9`
       );
-      alert(`err`);
+      swal("!!!", "Berita yang anda cari kosong.", "warning");
     }
   };
 
