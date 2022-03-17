@@ -11,7 +11,7 @@ const ArticleList = ({
   }) => (
     <div className="col-md-3 my-5">
       <div className="card">
-        <img src={urlToImage} alt="" />
+        <img className="news-img" src={urlToImage} alt="" />
         <div className="card-body">
           <h6 className="card-title">{title}</h6>
           <p className="tx-publised">

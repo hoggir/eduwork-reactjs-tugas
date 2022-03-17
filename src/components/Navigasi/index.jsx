@@ -23,6 +23,9 @@ export default class Navigasi extends React.Component {
                 <Link to="/regis" style={{ textDecoration: "none" }}>
                   <NavDropdown.Item href="#login">Login Form</NavDropdown.Item>
                 </Link>
+                <Link to="/redux" style={{ textDecoration: "none" }}>
+                  <NavDropdown.Item href="#counter">Counter</NavDropdown.Item>
+                </Link>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
