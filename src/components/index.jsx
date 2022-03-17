@@ -11,11 +11,20 @@ const Componentscon = () => {
   return (
     <div className="App">
       <Router>
-        <Navigasi />
+        {/* <Navigasi /> */}
         <Routes>
-          <Route exact path="/" element={<Portfolio />} />
+          <Route
+            path="/"
+            element={
+              <>
+                <Portfolio />
+                <Navigasi />
+              </>
+            }
+          />
+          {/* <Route exact path="/" element={<Portfolio />} /> */}
           <Route exact path="/news" element={<News />} />
-          <Route exact path="/regis" element={<Login />} />
+          <Route exact path="/login" element={<Login />} />
           <Route exact path="/redux" element={<Redux />} />
         </Routes>
       </Router>

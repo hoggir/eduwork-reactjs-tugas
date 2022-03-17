@@ -28,7 +28,7 @@ const BTNResume = styled.button`
 export default class Profile extends React.Component {
   render() {
     return (
-      <div id="profile" className="profile-container">
+      <div id="index" className="profile-container">
         <div className="container">
           <div className="profile-parent">
             <div className="profile-details">
